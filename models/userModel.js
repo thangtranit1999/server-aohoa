@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 
 const pool = mysql.createConnection({
-  host: "10.110.12.45",
-  user: "newuser",
+  host: "10.110.21.255",
+  user: "admin",
   password: "thang123456",
-  database: 'dan_aohoa'
+  database: 'user'
 })
 
 const data = (sql)=>{
